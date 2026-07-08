@@ -38,7 +38,9 @@ graph TD
 
 
 
+
 ## 📐 How It Works (Architecture)
+
 ```mermaid
 graph TD
     A[Web Loader] -->|Scrapes Web Content| B[Text Splitter]
