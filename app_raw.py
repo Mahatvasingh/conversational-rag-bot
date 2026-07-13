@@ -22,6 +22,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+
+groq_api_key = st.secrets["GROQ_API_KEY"]
 # 2. Setup System Caching for Production Efficiency
 @st.cache_resource
 def initialize_rag_system():
